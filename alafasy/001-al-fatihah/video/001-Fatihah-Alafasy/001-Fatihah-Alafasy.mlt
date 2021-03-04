@@ -1,0 +1,223 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.02.27" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:00:51.880">
+    <property name="length">00:00:51.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/alafasy/001-al-fatihah/FreeQuran_HD_Alafasy_001_Al-Fatihah.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-03-03T05:58:01</property>
+    <property name="shotcut:hash">54005d3b3b3811937e96f20ed8c17507</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/alafasy/001-al-fatihah/Mishary Rashid.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T02:51:15</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9c0b6cf85128b8cb426c1f1b575abbdd</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/welcome.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T02:51:01</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">3f07e077735d11c7af0f77bb4f843f54</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/end.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T03:02:49</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">98a14a14eee2a3e5d4c9a3ce99b5f0b3</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:51.880"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:03.960"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:55.440">
+    <property name="length">00:00:55.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:55.440"/>
+  </playlist>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/welcome.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T02:51:01</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">3f07e077735d11c7af0f77bb4f843f54</property>
+    <property name="shotcut:caption">welcome.png</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/alafasy/001-al-fatihah/Mishary Rashid.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T02:51:15</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9c0b6cf85128b8cb426c1f1b575abbdd</property>
+    <property name="shotcut:caption">Mishary Rashid.png</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.440">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:01.040" out="00:00:01.480"/>
+    <track producer="producer5" in="00:00:04.000" out="00:00:04.440"/>
+    <transition id="transition0" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.440">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/end.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-04T03:02:49</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">98a14a14eee2a3e5d4c9a3ce99b5f0b3</property>
+    <property name="shotcut:caption">end.png</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.400">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:54.440" out="00:00:54.840"/>
+    <track producer="producer6" in="00:00:00.000" out="00:00:00.400"/>
+    <transition id="transition2" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:01.000"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.440"/>
+    <entry producer="producer5" in="00:00:04.480" out="00:00:54.400"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="producer6" in="00:00:00.440" out="00:00:03.960"/>
+  </playlist>
+  <producer id="producer7" in="00:00:00.000" out="00:00:51.880">
+    <property name="length">00:00:51.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/hfomar/quran/alafasy/001-al-fatihah/FreeQuran_HD_Alafasy_001_Al-Fatihah.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-03-03T05:58:01</property>
+    <property name="shotcut:hash">54005d3b3b3811937e96f20ed8c17507</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">FreeQuran_HD_Alafasy_001_Al-Fatihah.mp3</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:51.880"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="00:00:55.440">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
